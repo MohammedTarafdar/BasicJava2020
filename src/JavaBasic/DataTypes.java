@@ -22,8 +22,17 @@ public class DataTypes {
 		byte b2 = 123;
 		
 		System.out.println(b);
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println("");
+		
 		//byte b2 = -123; Rule: Duplicate variable is not allowed in java.
 		b2 = -123;
+		
+		System.out.println(b);
+		System.out.println(b1);
+		System.out.println(b2);
+		System.out.println("");
 		
 
 	}
