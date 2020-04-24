@@ -70,8 +70,15 @@ public class StringConcat {
 		System.out.println("The sum of a and b is :"+(a+b));		// The sum of a and b is : 300
 		System.out.println("");
 		
+		
 		char c1 = 'a';
 		char c2 = 'b';
+		
+		/* ascii value range
+		 * a to z : 97 to 122
+		 * A to Z : 65 to 90
+		 * 0 to 9 : 48 to 57
+		 */
 		
 		System.out.println(c1+c2);
 		System.out.println(" ");
