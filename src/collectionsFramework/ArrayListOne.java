@@ -7,11 +7,11 @@ public class ArrayListOne {
 
 	public static void main(String[] args) {
 		
-		int array[] = new int[5];	// static array, size is fixed
+		// int array[] = new int[5];	// static array, size is fixed
 		
 		// dynamic array is ArrayList
 		
-		ArrayList ar1 = new ArrayList();
+		ArrayList<Integer> ar1 = new ArrayList<Integer>();
 		
 		ar1.add(10);
 		ar1.add(20);
@@ -50,9 +50,10 @@ public class ArrayListOne {
 		
 		// non generic vs generic
 		
-		ar1.add(40.55);
-		ar1.add("Test");
-		ar1.add("A");
+		
+		//ar1.add(40.55);
+		//ar1.add("Test");
+		//ar1.add("A");
 		
 		System.out.println("");
 		System.out.println("ArrayList : "+ar1);
