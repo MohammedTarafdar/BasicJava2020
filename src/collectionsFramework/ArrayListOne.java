@@ -50,7 +50,9 @@ public class ArrayListOne {
 		
 		// non generic vs generic
 		
-		
+		/* First time we create raw ArrayList so we was able to
+		 * add different type of data but now change it to Integer so no more - - -
+		 */
 		//ar1.add(40.55);
 		//ar1.add("Test");
 		//ar1.add("A");
