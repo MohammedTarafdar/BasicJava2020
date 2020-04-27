@@ -16,6 +16,8 @@ public class HashTableOne {
 		System.out.println(ht);
 		System.out.println(" ");
 		
+	
+		
 		
 		// Create a clone/shallow copy:
 		
