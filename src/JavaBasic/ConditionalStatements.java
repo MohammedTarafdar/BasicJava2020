@@ -5,6 +5,8 @@ public class ConditionalStatements {
 	
 	// What is dead code?
 	
+	// difference b/w class level variable vs local variable
+	
 	// </  /> <=/ >=/  ==/  !=/
 	
 	public static void main(String[] args) {
