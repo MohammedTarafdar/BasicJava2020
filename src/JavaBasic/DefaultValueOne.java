@@ -32,10 +32,12 @@ public class DefaultValueOne {
 		System.out.println("Default Value of boolean is : "+available);
 		
 		
+		// 0/2 vs 2/0		v.v.i.q
+		
 		int div = 0/2;
 		System.out.println(div);
 		
-		int div1 = 2/0;
+		int div1 = 2/0;		// it will through an ArithmeticException
 		System.out.println(div1);
 		
 		

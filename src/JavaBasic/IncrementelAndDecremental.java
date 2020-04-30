@@ -29,9 +29,10 @@ public class IncrementelAndDecremental {
 		System.out.println("");
 		
 		int m = 1;
-		int n = m++;		// Post-increment
-		System.out.println(m);		// 2
-		System.out.println(n);		// 1
+		int n = m++;	// m=1+1=2	// Post-increment
+						// n=m //n=1
+		System.out.println("Value of m is: "+m);		// 2
+		System.out.println("Value of n is: "+n);		// 1
 		System.out.println("");
 		
 		int p = 5;
