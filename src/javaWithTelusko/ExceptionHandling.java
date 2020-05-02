@@ -26,13 +26,15 @@ public class ExceptionHandling {
 		
 		int i, j, k=0;
 		
+		
 		i = 8;
 		j = 0;		// if i write 0 instead of 2, JVM will throw an ArithmeticException
 		
 		try {
 		k = i/j;
+		
 		}
-		catch(ArithmeticException e){
+		catch(Exception e){
 			System.out.println("Can not divided by Zero " + e);
 			
 		}
