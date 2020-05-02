@@ -13,6 +13,8 @@ public class ArrayConcept {
 		// 1. size is fixed
 		// 2. similar (homogeneous) types of data
 		
+		// How to resolved similar (homogeneous) types of data issue?
+		
 		// 1 int array
 		
 		int i[] = new int[5];
