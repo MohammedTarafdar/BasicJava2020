@@ -59,6 +59,7 @@ public class ArrayListConcept {
 		stName.add("Ashik");
 		System.out.println("Elements of String ArrayList : "+ stName);
 		
+		// How to store any types of data
 		
 		ArrayList<Object> empInfo = new ArrayList<Object>();
 		empInfo.add("Abu");
