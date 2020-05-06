@@ -81,7 +81,7 @@ public class MethodConcept {
 		return c;
 	}
 	
-	// //  return type: String Array
+	//  return type: String Array
 	public String[] getSubjectName() {
 		System.out.println("Subject Name");
 		String sName[] = new String[5];
