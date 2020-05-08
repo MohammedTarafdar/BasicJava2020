@@ -52,6 +52,8 @@ public class ClassConcept {
 		
 		System.out.println(obj2.header);
 		
+		// calling static variable and method
+		
 		ClassConcept.privacyPolicy();
 		
 		String logo =ClassConcept.logo;
