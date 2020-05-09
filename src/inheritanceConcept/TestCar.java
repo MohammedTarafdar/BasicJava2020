@@ -10,6 +10,7 @@ public class TestCar {
 		bmw.stop();
 		bmw.fillFuel();
 		bmw.autoParking();
+		bmw.carEngine();
 		
 		
 		// parent can not get any property fron child
@@ -17,6 +18,7 @@ public class TestCar {
 		car.start();
 		car.stop();
 		car.fillFuel();
+		car.carEngine();
 		
 		// What is top casting?
 		// child class object can be referred by parent class reference variable
@@ -25,8 +27,8 @@ public class TestCar {
 		car1.stop();
 		car1.fillFuel();
 		
-		// down casting
-		
+		// down casting 
+		// it will throw a run time exception 
 		BMW bmw1 =(BMW) new Car();
 		bmw1.start();
 		
