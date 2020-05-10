@@ -27,6 +27,10 @@ public class TestCar {
 		car1.stop();
 		car1.fillFuel();
 		
+		
+		Vehicle veh = new BMW();
+		veh.carEngine();
+		
 		// down casting 
 		// it will throw a run time exception 
 		BMW bmw1 =(BMW) new Car();
