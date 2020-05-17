@@ -1,4 +1,4 @@
-package JavaBasic;
+package javaBasic;
 
 public class AmazonSearch {
 	

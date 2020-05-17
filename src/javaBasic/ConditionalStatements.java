@@ -1,5 +1,5 @@
 
-package JavaBasic;
+package javaBasic;
 
 public class ConditionalStatements {
 	

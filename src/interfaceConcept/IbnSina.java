@@ -1,4 +1,4 @@
-package InterfaceConcept;
+package interfaceConcept;
 
 public class IbnSina implements USMedical, UKMedical, IndianMedical  {
 

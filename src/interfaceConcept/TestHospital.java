@@ -1,4 +1,4 @@
-package InterfaceConcept;
+package interfaceConcept;
 
 public class TestHospital {
 
@@ -12,6 +12,7 @@ public class TestHospital {
 		ibn.medicalInsurance();
 		
 		// Top casting
+		// child class object can be referred by parent interface reference variable
 		
 		USMedical usIbn = new IbnSina();
 		
@@ -24,7 +25,8 @@ public class TestHospital {
 		ukIbn.ambulanceServices();
 		ukIbn.entServices();
 		
-		
+		// can we create object of an interface ?
+		// => NO
 
 	}
 
