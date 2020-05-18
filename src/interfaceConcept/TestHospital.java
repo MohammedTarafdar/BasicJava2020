@@ -11,6 +11,9 @@ public class TestHospital {
 		ibn.entServices();
 		ibn.medicalInsurance();
 		
+		
+		ibn.getPatientHistory();
+		
 		// Top casting
 		// child class object can be referred by parent interface reference variable
 		
@@ -19,6 +22,8 @@ public class TestHospital {
 		usIbn.physioServices();
 		usIbn.oncologyServices();
 		usIbn.orthopedicServices();
+		
+	
 		
 		
 		// variables of interface are static and final by default 

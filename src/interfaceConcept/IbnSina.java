@@ -1,6 +1,6 @@
 package interfaceConcept;
 
-public class IbnSina implements USMedical, UKMedical, IndianMedical  {
+public class IbnSina extends GlobalPatientData implements USMedical, UKMedical, IndianMedical  {
 
 	@Override
 	public void physioServices() {
@@ -53,7 +53,7 @@ public class IbnSina implements USMedical, UKMedical, IndianMedical  {
 	// WHO
 	@Override
 	public void polioServices() {
-		// TODO Auto-generated method stub
+		System.out.println("Polio is a worldwide problem");
 		
 	}
 	
