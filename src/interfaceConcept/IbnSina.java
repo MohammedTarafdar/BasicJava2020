@@ -50,6 +50,13 @@ public class IbnSina implements USMedical, UKMedical, IndianMedical  {
 		
 	}
 	
+	// WHO
+	@Override
+	public void polioServices() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	// non overridden methods
 	
 	
@@ -66,6 +73,8 @@ public class IbnSina implements USMedical, UKMedical, IndianMedical  {
 	public void pathalogyServices() {
 		System.out.println("IbnSina pathalogy services");
 	}
+
+	
 	
 	
 	

@@ -20,13 +20,30 @@ public class TestHospital {
 		usIbn.oncologyServices();
 		usIbn.orthopedicServices();
 		
+		
+		// variables of interface are static and final by default 
+		System.out.println(usIbn.min_fee);
+		
+		System.out.println(USMedical.min_fee);
+		
+		USMedical.service911();
+		
+		usIbn.internship();
+		
+		
 		UKMedical ukIbn = new IbnSina();
 		
 		ukIbn.ambulanceServices();
 		ukIbn.entServices();
 		
-		// can we create object of an interface ?
-		// => NO
+		 
+		
+		/*
+		 * can we create object of an interface ?
+		 * => NO
+		 */
+		
+		
 
 	}
 
