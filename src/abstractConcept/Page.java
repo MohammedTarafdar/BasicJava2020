@@ -7,6 +7,8 @@ public abstract class Page {
 	 * 
 	 * What is partial abstraction?
 	 * => 0 to 100% abstraction can be achieved by abstract class
+	 * 
+	 * abstract class vs interface
 	 */
 	
 	
