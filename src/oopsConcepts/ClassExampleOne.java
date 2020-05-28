@@ -2,6 +2,11 @@ package oopsConcepts;
 
 public class ClassExampleOne {
 	
+	
+	/* What is class?
+	 * 
+	 */
+	
 	// instance variable or fields
 	
 	String webName;
