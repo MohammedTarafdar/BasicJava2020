@@ -5,6 +5,7 @@ public class IfStatementExample {
 	public static void main(String[] args) {
 
 		int num = 70;
+		//num =110;
 		if(num< 100) {
 			System.out.println("Our input "+num+ " is less then 100");
 		}

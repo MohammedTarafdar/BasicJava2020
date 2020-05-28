@@ -7,6 +7,7 @@ public class NestedIfExample {
 		
 		// First example
 		int num = 75;
+		num =45;
 		
 		if (num <100 ) {
 			
@@ -22,7 +23,7 @@ public class NestedIfExample {
 		// Second example 
 		
 		int marks = 65;
-		marks =85;
+		//marks =85;
 		marks = 25;
 		
 		if(marks >= 33) {

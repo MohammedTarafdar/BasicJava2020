@@ -9,7 +9,7 @@ public class ForLoopExample {
 		// How to print 1 to 10
 		
 		System.out.println("Print 1 to 10 ascending order");
-		for(int i = 1; i <= 10; i++) {
+		for(int i = 1; i <= 100; i++) {
 			System.out.println("The value of i is : "+i);
 			
 		}
