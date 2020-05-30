@@ -74,8 +74,8 @@ public class PolymorphismTest extends PolymorphismExample {
 			poly5.engine();
 			
 			
-			PolymorphismTest poly6 = (PolymorphismTest)new PolymorphismExample();
-			poly6.autoEngine();
+			//PolymorphismTest poly6 = (PolymorphismTest) new PolymorphismExample();
+			//poly6.autoEngine();
 		
 			
 		}
