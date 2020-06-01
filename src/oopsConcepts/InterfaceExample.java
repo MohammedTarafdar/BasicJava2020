@@ -14,6 +14,8 @@ package oopsConcepts;
  * 
  * => Duplicate default methods named concreteMethodOne with the parameters () and () are inherited 
  * from the types InterfaceExampleTwo and InterfaceExample
+ * 
+ * To solve this problem, we can implement this method in the implementation class
  */
 
 public interface InterfaceExample {
