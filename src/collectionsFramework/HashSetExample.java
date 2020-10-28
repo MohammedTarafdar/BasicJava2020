@@ -40,11 +40,7 @@ public class HashSetExample {
 
 	public static void main(String[] args) {
 
-		HashSet  hSet1 = new HashSet();
-		hSet1.add('A');
-		hSet1.add(10);
 		
-		System.out.println(hSet1);
 		
 		
 		
@@ -57,6 +53,7 @@ public class HashSetExample {
 		hSet.add("mango");
 		hSet.add("orange");
 		hSet.add("banana");
+		
 		
 		//displaying hash set elements
 		
