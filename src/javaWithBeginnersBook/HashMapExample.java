@@ -18,8 +18,9 @@ public class HashMapExample {
 		
 		// To get value based on key
 		String secondValueString =hMap.get(2);
-		System.out.println(secondValueString);
+		System.out.println("The value of index number 2 is = "+secondValueString);
 		
+		System.out.println(" ");
 		System.out.println("Iterate through for loop =====>");
 		
 		for(Map.Entry<Integer, String> me: hMap.entrySet()) {
