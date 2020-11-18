@@ -43,11 +43,44 @@ public class StringExample {
 		int numOfplace = student4.indexOf("R");
 		System.out.println(numOfplace);
 		
-		//
-		String stu5 = "Afia&Umar";
-		String [] arrayofStu5 = stu5.split("&");
-		for(String s : arrayofStu5)
+		// split() => returns a split string matching regex.
+		String stu1 = "Afia&Umar";
+		String [] arrayofStu1 = stu1.split("&");
+		for(String s : arrayofStu1)
 		System.out.println(s);
+		
+		// concat() => concat() method appends the string at the end
+		String stu2 = "Mohammed";
+		stu2.concat(" Tarafdar");
+		System.out.println(stu2);
+		
+		stu2 = stu2.concat("Tarafdar");
+		System.out.println(stu2);
+		
+		String newStu2 = stu2.concat(" Tarafdar");
+		System.out.println(newStu2);
+		
+		String fName = "Mohammed";
+		String mName1 = " Ashikur";
+		String mName2 = " Rahman";
+		String lName = " Tarafdar";
+		
+		System.out.println(fName);
+		System.out.println(mName1);
+		
+		fName = fName.concat(mName1);
+		System.out.println(fName);
+		
+		fName = fName.concat(mName1).concat(mName2);
+		System.out.println(fName);
+		
+		String fn = "Mohammed";
+		String mn1 = " Ashikur";
+		String mn2 = " Rahman";
+		String ln = " Tarafdar";
+		
+		String fullName = fn.concat(mn1).concat(mn2).concat(ln);
+		System.out.println(fullName);
 		
 		
 		
