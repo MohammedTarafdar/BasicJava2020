@@ -28,6 +28,25 @@ public class StringBufferExample {
 		StringBuffer sb3 = new StringBuffer("Basic Java");
 		sb3.delete(0, 6);
 		System.out.println(sb3);
+		
+		// reverse() => is used to reverse the string.
+		StringBuffer sb4 = new StringBuffer("Basic Java");
+		sb4.reverse();
+		System.out.println(sb4);
+		
+		// length() =>	is used to return the length of the string i.e. total number of characters.
+		StringBuffer sb5 = new StringBuffer("Basic Java");
+		int length = sb5.length();
+		System.out.println(length);
+		
+		// substring() => StringBuffer sb5 = new StringBuffer("Basic Java");
+		StringBuffer sb6 = new StringBuffer("Basic Java Tutorial");
+		String newsb6= sb6.substring(11);
+		System.out.println(newsb6);
+		
+		//
+		StringBuffer sb7 = new StringBuffer("quick brown fox jumps over the lazy dog");
+		String newsb7=sb7.substring(6, 15);
+		System.out.println(newsb7);
 	}
-
 }
