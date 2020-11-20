@@ -44,7 +44,8 @@ public class StringBufferExample {
 		String newsb6= sb6.substring(11);
 		System.out.println(newsb6);
 		
-		//
+		// substring(int beginIndex, int endIndex) => is used to return the substring 
+		// from the specified beginIndex and endIndex.
 		StringBuffer sb7 = new StringBuffer("quick brown fox jumps over the lazy dog");
 		String newsb7=sb7.substring(6, 15);
 		System.out.println(newsb7);
